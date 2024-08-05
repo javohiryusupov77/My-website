@@ -7,11 +7,11 @@ const Footer = () => {
     <div className="bg-black text-white py-8">
       <div className="max-w-6xl mx-auto px-4 grid sm:grid-cols-6 grid-cols-1 gap-8">
         <div className="col-span-3 flex flex-col justify-center items-start">
-          <h1 className="text-2xl font-bold mb-2">Let's Connect</h1>
+          <h1 className="text-2xl font-bold mb-2">Lets Connect</h1>
           <p className="text-gray-300 mb-4">
             I am currently looking for new opportunities, my inbox is always
             open. Whether you have a question or just want to say hi, I will try
-            my best to get back to you!
+            my best to get back to you.
           </p>
           <div className="flex space-x-4">
             <Link href="https://github.com/javohiryusupov77" passHref>
