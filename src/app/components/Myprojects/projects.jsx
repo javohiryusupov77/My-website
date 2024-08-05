@@ -6,20 +6,9 @@ function Projects() {
   const [images, setImages] = useState([]);
 
   const data = {
-    all: [
-      "https://i.ytimg.com/vi/6J2t_RyQopU/maxresdefault.jpg",
-      "https://www.interviewbit.com/blog/wp-content/uploads/2021/12/React-Projects-800x450.png",
-      "https://media.geeksforgeeks.org/wp-content/uploads/20240307175325/React-Projects-with-Source-Code-[2024].webp",
-      "https://blog.function12.io/content/images/2023/01/6-Potential-React-Web-App-Project-Ideas-to-work-on.png",
-    ],
-    web: [
-      "https://blog.function12.io/content/images/2023/01/6-Potential-React-Web-App-Project-Ideas-to-work-on.png",
-      "https://i.ytimg.com/vi/6J2t_RyQopU/maxresdefault.jpg",
-    ],
-    mobile: [
-      "https://www.interviewbit.com/blog/wp-content/uploads/2021/12/React-Projects-800x450.png",
-      "https://media.geeksforgeeks.org/wp-content/uploads/20240307175325/React-Projects-with-Source-Code-[2024].webp",
-    ],
+    all: ["/first.webp", "/four.webp", "/four.webp", "/first.webp"],
+    web: ["/four.webp","/first.webp" ],
+    mobile: ["/first.webp", "/four.webp"],
   };
 
   const handleClick = (category) => {
@@ -50,13 +39,15 @@ function Projects() {
       </div>
       <div className="grid grid-cols-2 gap-4">
         {images.map((url, index) => (
-            <Image
+          <Image
+            width={200}
+            height={200}
             key={index}
             src={url}
             alt={`Project ${index}`}
             className="w-full h-auto object-cover rounded-lg"
-            />
-            ))}
+          />
+        ))}
       </div>
     </div>
   );
