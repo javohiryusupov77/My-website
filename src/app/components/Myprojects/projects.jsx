@@ -6,9 +6,9 @@ function Projects() {
   const [images, setImages] = useState([]);
 
   const data = {
-    all: ["/first.webp", "/four.webp", "/four.webp", "/first.webp"],
+    all: ["/first.webp", "/second.webp", "/third.webp", "/four.webp"],
     web: ["/four.webp","/first.webp" ],
-    mobile: ["/first.webp", "/four.webp"],
+    mobile: ["/second.webp", "/third.webp"],
   };
 
   const handleClick = (category) => {
