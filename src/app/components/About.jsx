@@ -34,7 +34,7 @@ export default function About() {
 
   return (
     <div>
-      <section>
+      <section id="about">
         <div className="grid grid-cols-1 sm:grid-cols-6 gap-4 p-4">
           <div className="col-span-3">
             <Image src="/image.jpg" alt="flower" width={600} height={600} />

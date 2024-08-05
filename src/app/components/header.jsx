@@ -65,14 +65,13 @@ export default function Header() {
               stroke="currentColor"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
-            >
-            </svg>
+            ></svg>
           </button>
           <ul className="flex flex-col lg:flex-row lg:space-x-6">
             <li>
               <Link
                 className="block py-2 px-4 hover:bg-gray-700 rounded"
-                href="#"
+                href="#about"
               >
                 About
               </Link>
@@ -80,7 +79,7 @@ export default function Header() {
             <li>
               <Link
                 className="block py-2 px-4 hover:bg-gray-700 rounded"
-                href="#"
+                href="#project"
               >
                 Project
               </Link>
@@ -88,7 +87,7 @@ export default function Header() {
             <li>
               <Link
                 className="block py-2 px-4 hover:bg-gray-700 rounded"
-                href="#"
+                href="#contact"
               >
                 Contact
               </Link>

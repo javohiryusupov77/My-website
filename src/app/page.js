@@ -14,7 +14,7 @@ export default function Home() {
       <div className="grid grid-cols-1 sm:grid-cols-5 gap-4 ml-10">
         <div className="col-span-3 ml-8">
           <h1 className=" text-5xl md:text-7xl inline-block bg-gradient-to-r from-[#f79] to-[#f06] bg-clip-text text-transparent">
-            Hello I am{" "}
+            Hello I am
           </h1>
           <Animation />
           <br />
@@ -24,7 +24,7 @@ export default function Home() {
           </p>
           <div class="space-x-4 mt-5">
             <button class="bg-gradient-to-r from-purple-500 to-purple-700 text-white py-2 px-4 rounded-lg font-semibold">
-              Hire me
+              <Link href={"#contact"}>Hire me</Link>
             </button>
             <button class="border border-purple-500 text-white bg-purple-to-r from-purple-500 to-purple-700 py-2 px-4 rounded-lg font-semibold">
               <Link href={"https://resume-five-ruby.vercel.app/"}>
