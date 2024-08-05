@@ -21,10 +21,10 @@ function Projects() {
         githubLink: "https://github.com/javohiryusupov77/exam-7.git",
       },
       {
-        id: 3,
-        img: "/todo.png",
-        link: "https://todo-typescipt.vercel.app/",
-        githubLink: "https://github.com/javohiryusupov77/Todo-Typescipt.git",
+        id: 1,
+        img: "/travel-journey.png",
+        link: "https://travel-journey-two.vercel.app/",
+        githubLink: "https://github.com/javohiryusupov77/travel-journey.git",
       },
       {
         id: 4,
@@ -35,10 +35,10 @@ function Projects() {
     ],
     web: [
       {
-        id: 4,
-        img: "/calculator1.png",
-        link: "https://calculator-psi-coral.vercel.app/",
-        githubLink: "https://github.com/javohiryusupov77/calculator.git",
+        id: 2,
+        img: "/project-1.png",
+        link: "https://exam-7-1.vercel.app/",
+        githubLink: "https://github.com/javohiryusupov77/exam-7.git",
       },
       {
         id: 3,
@@ -49,16 +49,16 @@ function Projects() {
     ],
     mobile: [
       {
-        id: 2,
-        img: "/project-1.png",
-        link: "https://exam-7-1.vercel.app/",
-        githubLink: "https://github.com/javohiryusupov77/exam-7.git",
+        id: 4,
+        img: "/calculator1.png",
+        link: "https://calculator-psi-coral.vercel.app/",
+        githubLink: "https://github.com/javohiryusupov77/calculator.git",
       },
       {
-        id: 1,
-        img: "/travel-journey.png",
-        link: "https://travel-journey-two.vercel.app/",
-        githubLink: "https://github.com/javohiryusupov77/travel-journey.git",
+        id: 3,
+        img: "/todo.png",
+        link: "https://todo-typescipt.vercel.app/",
+        githubLink: "https://github.com/javohiryusupov77/Todo-Typescipt.git",
       },
     ],
   };
