@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import Image from "next/image";
 
 function Projects() {
   const [images, setImages] = useState([]);
@@ -49,7 +50,7 @@ function Projects() {
       </div>
       <div className="grid grid-cols-2 gap-4">
         {images.map((url, index) => (
-            <img
+            <Image
             key={index}
             src={url}
             alt={`Project ${index}`}
