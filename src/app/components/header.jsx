@@ -72,7 +72,7 @@ export default function Header() {
             <li>
               <Link
                 className="block py-2 px-4 hover:bg-gray-700 rounded"
-                href="/about"
+                href="#"
               >
                 About
               </Link>
@@ -80,7 +80,7 @@ export default function Header() {
             <li>
               <Link
                 className="block py-2 px-4 hover:bg-gray-700 rounded"
-                href="/project"
+                href="#"
               >
                 Project
               </Link>
@@ -88,7 +88,7 @@ export default function Header() {
             <li>
               <Link
                 className="block py-2 px-4 hover:bg-gray-700 rounded"
-                href="/contact"
+                href="#"
               >
                 Contact
               </Link>
