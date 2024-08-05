@@ -1,4 +1,6 @@
 import React from "react";
+import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -7,33 +9,32 @@ const Footer = () => {
         <div className="col-span-3 flex flex-col justify-center items-start">
           <h1 className="text-2xl font-bold mb-2">Let's Connect</h1>
           <p className="text-gray-300 mb-4">
-            I'm currently looking for new opportunities, my inbox is always
-            open. Whether you have a question or just want to say hi, I'll try
+            I am currently looking for new opportunities, my inbox is always
+            open. Whether you have a question or just want to say hi, I will try
             my best to get back to you!
           </p>
           <div className="flex space-x-4">
-            <a
-              href="https://github.com/javohiryusupov77"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                style={{ width: "30px", height: "30px" }}
-                src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+            <Link href="https://github.com/javohiryusupov77" passHref>
+              <Image
+                src={"/github.png"}
                 alt="GitHub"
+                width={30}
+                height={30}
+                className="cursor-pointer"
               />
-            </a>
-            <a
+            </Link>
+            <Link
               href="https://www.linkedin.com/in/javohir-yusupov-9030b131a/"
-              target="_blank"
-              rel="noopener noreferrer"
+              passHref
             >
-              <img
-                src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+              <Image
+                src={"/Linkdin.jpg"}
                 alt="LinkedIn"
-                style={{ width: "30px", height: "30px" }}
+                width={30}
+                height={30}
+                className="cursor-pointer"
               />
-            </a>
+            </Link>
           </div>
         </div>
         <div className="col-span-3">
@@ -105,7 +106,7 @@ const Footer = () => {
       <br />
       <div className="flex items-center justify-between">
         <h1 className="text-3xl">LOGO</h1>
-        <p style={{ color: "grey" }}>All rights reserved.</p>
+        <p className="text-gray-400">All rights reserved.</p>
       </div>
     </div>
   );
