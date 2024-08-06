@@ -10,6 +10,12 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-black container">
       <Header />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <div className="grid grid-cols-1 sm:grid-cols-5 gap-4 ml-10">
         <div id="fade-in" className="col-span-3 ml-8">
           <h1 className=" text-5xl md:text-7xl inline-block bg-gradient-to-r from-[#f79] to-[#f06] bg-clip-text text-transparent">

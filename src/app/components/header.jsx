@@ -1,5 +1,4 @@
 "use client";
-
 import React, { useState } from "react";
 import Link from "next/link";
 
@@ -7,7 +6,7 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="text-white p-4 border border-slate-100 mb-10">
+    <header className=" bg-black text-white p-4 border border-slate-100 mb-10 fixed top-0 left-0 w-full z-50">
       <div className="container mx-auto flex items-center justify-between">
         <h1 className="text-5xl font-bold">LOGO</h1>
         <button
